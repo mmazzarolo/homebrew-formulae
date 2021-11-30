@@ -2,11 +2,10 @@ class QuickRemindersCli < Formula
   depends_on "keith/formulae/reminders-cli"
 
   homepage "https://github.com/mmazzarolo/quick-reminders-cli"
-  url "https://github.com/mmazzarolo/quick-reminders-cli/releases/download/test3/quick-reminders-cli.tar.gz"
-  sha256 "335a7c269313e500544cd4afbee8233d28334115213df79afa871317a01e0f97"
+  url "https://github.com/mmazzarolo/quick-reminders-cli/releases/download/v1.0.1/quick-reminders.tar.gz"
+  sha256 "b09d6ef190f242b5f9634dd0ee77ff618f04543d68ad561efd41ad5b658117cb"
 
   def install
     bin.install "quick-reminders"
-    zsh_completion.install "_quickreminders"
   end
 end
